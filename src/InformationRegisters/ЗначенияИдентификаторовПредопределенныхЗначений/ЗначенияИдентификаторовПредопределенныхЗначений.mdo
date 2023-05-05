@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37e1d6b3-3cac-4193-ad02-34c7ad3f4c17">
+  <producedTypes>
+    <selectionType typeId="1bd2264f-f349-4b7d-96ce-42eb98023ea5" valueTypeId="2b7cf8a1-de7f-41bb-ac1d-34ab0c50b7cc"/>
+    <listType typeId="97175612-654d-428f-9e24-fe6603008cfd" valueTypeId="03bf6caa-eb1b-4fe5-909a-b6f0fe221107"/>
+    <managerType typeId="5873e851-50ad-41be-aa18-18ce06d2f2f4" valueTypeId="77a63593-5da4-46dc-8521-d1240d4c22c1"/>
+    <recordSetType typeId="bed3b6ce-fc20-4e83-b5d3-e7cdbc0b3158" valueTypeId="5a928f89-fb8e-42c5-b5c4-34eebf553d8f"/>
+    <recordKeyType typeId="fa8d92e2-9042-4e0b-9de3-9e7b70f64c46" valueTypeId="f77396ca-546f-4917-9c96-fd692ec3c29c"/>
+    <recordType typeId="08eb4c18-fceb-4a46-9914-b2f0d4c8cc0e" valueTypeId="9eaec209-3e8b-403c-973b-ceb3f3ba3c69"/>
+    <recordManagerType typeId="5e947e56-1c81-4f14-9bf6-38be84baa9d9" valueTypeId="06113f2c-d3f4-49ab-8099-f76198f08847"/>
+  </producedTypes>
+  <name>ЗначенияИдентификаторовПредопределенныхЗначений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения идентификаторов предопределенных значений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="971af498-a632-4c28-91f0-f7723ea65dc1">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыПредопределенныхЗначений</types>
+      <types>String</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0bc7cf38-adf2-48fd-9a45-50fa0b37c19f">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыПредопределенныхЗначений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7020e437-5dbf-4486-a1da-00f41958aaec">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыПредопределенныхЗначений</types>
+      <types>String</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
