@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bd14b53-c049-40e2-9d74-46238a8bd2c9">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8159e9a2-f05c-45a7-a66f-f0bee0c2cc71"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ec0a1f1f-f18e-4352-ab61-28e2dc18900d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e1fa40e2-99ee-423f-a647-c26a1751b1e3"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="67b90a62-b2ed-401b-9f16-44ea73cfda1c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5159f80f-aca9-481e-856f-cb7832405292"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3fb9f61f-7bb9-4d1d-9a6f-7f6196f5685d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="01a8e401-a7a2-4bbc-b933-fa87cf69dcfc"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultStyle>Style.СтильВК</defaultStyle>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="80e4fc82-57ba-4e37-b404-65a368e34c4b">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styles>Style.СтильВК</styles>
+  <commonPictures>CommonPicture.ЛоготипВК</commonPictures>
+  <dataProcessors>DataProcessor.ИнтерактивноеОкно</dataProcessors>
+</mdclass:Configuration>
