@@ -4,13 +4,13 @@
     <objectType typeId="af75d396-8895-497f-bd9e-df68862d141b" valueTypeId="14d8a100-a0f2-4587-a550-3fffd52ca1b7"/>
     <managerType typeId="6bb9c351-ae1e-4174-b346-cd390b36979d" valueTypeId="55dffcb3-ba2e-4fdb-815b-4e2ecef6c424"/>
   </producedTypes>
-  <name>ИнтерактивноеОкно</name>
+  <name>ВК_ИнтерактивноеОкно</name>
   <synonym>
     <key>ru</key>
-    <value>Интерактивное окно</value>
+    <value>В к интерактивное окно</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.ИнтерактивноеОкно.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.ВК_ИнтерактивноеОкно.Form.Форма</defaultForm>
   <forms uuid="f447b530-3596-4e11-b77e-2b0ad4bbc341">
     <name>Форма</name>
     <synonym>

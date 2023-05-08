@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab413b25-a4b8-4158-adec-3f1775612977">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab413b25-a4b8-4158-adec-3f1775612977">
   <producedTypes>
     <objectType typeId="97b6b268-c9e6-4fe9-bad9-43b23436ae6e" valueTypeId="5267b5d2-83cc-4998-8018-ced596ddb20c"/>
     <refType typeId="17efc1ec-2530-4f15-a2a8-ebbed279db6f" valueTypeId="3440ab39-043a-4767-b212-13fbbd776f43"/>
@@ -7,30 +7,48 @@
     <listType typeId="697e664f-526e-4e47-ac91-1645e3faffed" valueTypeId="049f5d25-d087-4938-a644-ad05d36e6b50"/>
     <managerType typeId="e4b0b21b-e543-4910-bc3d-fac0bc9792dd" valueTypeId="e17ed7d7-47a9-41ad-9604-458080b6c39d"/>
   </producedTypes>
-  <name>ИдентификаторыПредопределенныхЗначений</name>
+  <name>ВК_ИдентификаторыПредопределенныхЗначений</name>
   <synonym>
     <key>ru</key>
     <value>Идентификаторы предопределенных значений</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ИдентификаторыПредопределенныхЗначений.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.ИдентификаторыПредопределенныхЗначений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВК_ИдентификаторыПредопределенныхЗначений.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВК_ИдентификаторыПредопределенныхЗначений.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <codeLength>50</codeLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b02930c2-5b6a-473b-8d60-d5f11a1357e9">
+      <name>ДанныеДляИнтеграции</name>
+      <description>Данные для интеграции</description>
+      <code xsi:type="core:StringValue">
+        <value>ДанныеДляИнтеграции</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="2e6894dd-792a-447c-ae5e-2cb22d62f1ac">
+        <name>ДанныеДляИнтеграции_Настройки</name>
+        <description>Данные для интеграции: &quot;Настройки&quot;</description>
+        <code xsi:type="core:StringValue">
+          <value>ДанныеДляИнтеграции_Настройки</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.ИдентификаторыПредопределенныхЗначений.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultObjectForm>Catalog.ВК_ИдентификаторыПредопределенныхЗначений.Form.ФормаЭлемента</defaultObjectForm>
   <forms uuid="15c5bea8-037e-49e7-8612-657147a07f36">
     <name>ФормаЭлемента</name>
     <synonym>

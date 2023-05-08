@@ -9,7 +9,7 @@
     <recordType typeId="08eb4c18-fceb-4a46-9914-b2f0d4c8cc0e" valueTypeId="9eaec209-3e8b-403c-973b-ceb3f3ba3c69"/>
     <recordManagerType typeId="5e947e56-1c81-4f14-9bf6-38be84baa9d9" valueTypeId="06113f2c-d3f4-49ab-8099-f76198f08847"/>
   </producedTypes>
-  <name>ЗначенияИдентификаторовПредопределенныхЗначений</name>
+  <name>ВК_ЗначенияИдентификаторовПредопределенныхЗначений</name>
   <synonym>
     <key>ru</key>
     <value>Значения идентификаторов предопределенных значений</value>
@@ -24,14 +24,14 @@
       <value>Значение</value>
     </synonym>
     <type>
-      <types>CatalogRef.ИдентификаторыПредопределенныхЗначений</types>
+      <types>CatalogRef.ВК_ИдентификаторыПредопределенныхЗначений</types>
       <types>String</types>
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
       <stringQualifiers>
-        <length>10</length>
+        <length>200</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -47,7 +47,7 @@
       <value>Идентификатор</value>
     </synonym>
     <type>
-      <types>CatalogRef.ИдентификаторыПредопределенныхЗначений</types>
+      <types>CatalogRef.ВК_ИдентификаторыПредопределенныхЗначений</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -63,7 +63,7 @@
       <value>Параметр</value>
     </synonym>
     <type>
-      <types>CatalogRef.ИдентификаторыПредопределенныхЗначений</types>
+      <types>CatalogRef.ВК_ИдентификаторыПредопределенныхЗначений</types>
       <types>String</types>
       <types>Number</types>
       <numberQualifiers>

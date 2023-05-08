@@ -412,7 +412,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.ИдентификаторыПредопределенныхЗначений</types>
+      <types>CatalogObject.ВК_ИдентификаторыПредопределенныхЗначений</types>
     </valueType>
     <view>
       <common>true</common>
@@ -447,7 +447,7 @@
       </title>
       <id>3</id>
       <valueType>
-        <types>CatalogRef.ИдентификаторыПредопределенныхЗначений</types>
+        <types>CatalogRef.ВК_ИдентификаторыПредопределенныхЗначений</types>
         <types>String</types>
         <types>Number</types>
         <numberQualifiers>
@@ -470,7 +470,7 @@
       </title>
       <id>4</id>
       <valueType>
-        <types>CatalogRef.ИдентификаторыПредопределенныхЗначений</types>
+        <types>CatalogRef.ВК_ИдентификаторыПредопределенныхЗначений</types>
         <types>String</types>
         <types>Number</types>
         <numberQualifiers>
@@ -490,5 +490,10 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
+    </handlers>
+  </extInfo>
 </form:Form>

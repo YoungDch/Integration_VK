@@ -492,7 +492,7 @@
   <commonForms>CommonForm.СравнениеТабличныхДокументов</commonForms>
   <commonForms>CommonForm.ФормаВыбораЦвета</commonForms>
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
-  <catalogs>Catalog.ИдентификаторыПредопределенныхЗначений</catalogs>
+  <catalogs>Catalog.ВК_ИдентификаторыПредопределенныхЗначений</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
@@ -510,14 +510,14 @@
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
-  <dataProcessors>DataProcessor.ИнтерактивноеОкно</dataProcessors>
+  <dataProcessors>DataProcessor.ВК_ИнтерактивноеОкно</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
   <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
   <dataProcessors>DataProcessor.ОписаниеОбработчиковОбновления</dataProcessors>
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
-  <informationRegisters>InformationRegister.ЗначенияИдентификаторовПредопределенныхЗначений</informationRegisters>
+  <informationRegisters>InformationRegister.ВК_ЗначенияИдентификаторовПредопределенныхЗначений</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>

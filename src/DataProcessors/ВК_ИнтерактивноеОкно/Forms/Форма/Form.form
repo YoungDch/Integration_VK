@@ -542,7 +542,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ИнтерактивноеОкно</types>
+      <types>DataProcessorObject.ВК_ИнтерактивноеОкно</types>
     </valueType>
     <view>
       <common>true</common>
