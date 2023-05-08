@@ -277,7 +277,7 @@
             <id>32</id>
             <title>
               <key>ru</key>
-              <value>Забыл токен</value>
+              <value>Получить токен</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
