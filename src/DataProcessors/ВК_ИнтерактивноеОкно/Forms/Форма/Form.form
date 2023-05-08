@@ -273,7 +273,7 @@
           <name>ГруппаИнтерфейсВходаШапкаПраваяГруппаИнформацияПомощи</name>
           <id>27</id>
           <items xsi:type="form:Decoration">
-            <name>Декорация_ЗабыльТокен</name>
+            <name>Декорация_ПолучитьТокен</name>
             <id>32</id>
             <title>
               <key>ru</key>
@@ -285,7 +285,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>Декорация_ЗабыльТокенРасширеннаяПодсказка</name>
+              <name>Декорация_ПолучитьТокенРасширеннаяПодсказка</name>
               <id>34</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -300,7 +300,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>Декорация_ЗабыльТокенКонтекстноеМеню</name>
+              <name>Декорация_ПолучитьТокенКонтекстноеМеню</name>
               <id>33</id>
               <visible>true</visible>
               <enabled>true</enabled>
