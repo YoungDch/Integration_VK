@@ -396,6 +396,10 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазы_ВК</commonModules>
+  <commonModules>CommonModule.ВК_Интеграция</commonModules>
+  <commonModules>CommonModule.ВК_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ВК_ИнтеграцияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ВК_ИнтеграцияВызовСервера</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <webServices>WebService.InterfaceVersion</webServices>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>

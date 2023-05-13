@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5421d3eb-569b-4de9-bdea-f7783699cd67">
+  <name>ВК_ИнтеграцияВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция вызов сервера (ВК)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

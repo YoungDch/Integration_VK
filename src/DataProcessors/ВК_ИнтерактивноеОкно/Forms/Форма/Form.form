@@ -313,6 +313,10 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <handlers>
+                <event>Click</event>
+                <name>Декорация_ПолучитьТокенНажатие</name>
+              </handlers>
               <hyperlink>true</hyperlink>
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
@@ -597,6 +601,11 @@
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Войти</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
