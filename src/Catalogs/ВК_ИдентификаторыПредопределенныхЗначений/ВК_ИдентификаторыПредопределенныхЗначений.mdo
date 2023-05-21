@@ -44,6 +44,13 @@
           <value>ДанныеДляИнтеграции_Настройки</value>
         </code>
       </content>
+      <content id="7fd0ce8b-bee1-4a7b-8104-10f7ca202e54">
+        <name>ДанныеДляИнтеграции_НастройкиПодключенияКСерверу</name>
+        <description>Данные для интеграции: &quot;Настройки подключения к серверу&quot;</description>
+        <code xsi:type="core:StringValue">
+          <value>ДанныеДляИнтеграции_НастройкиПодключенияКСерверу</value>
+        </code>
+      </content>
     </items>
   </predefined>
   <editType>InDialog</editType>

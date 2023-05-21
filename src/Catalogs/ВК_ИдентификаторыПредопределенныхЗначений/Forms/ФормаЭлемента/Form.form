@@ -473,10 +473,15 @@
         <types>CatalogRef.ВК_ИдентификаторыПредопределенныхЗначений</types>
         <types>String</types>
         <types>Number</types>
+        <types>Date</types>
+        <types>Boolean</types>
         <numberQualifiers>
           <precision>10</precision>
         </numberQualifiers>
         <stringQualifiers/>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
       </valueType>
       <view>
         <common>true</common>

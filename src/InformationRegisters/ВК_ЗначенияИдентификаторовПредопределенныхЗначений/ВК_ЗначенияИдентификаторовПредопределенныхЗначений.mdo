@@ -27,12 +27,17 @@
       <types>CatalogRef.ВК_ИдентификаторыПредопределенныхЗначений</types>
       <types>String</types>
       <types>Number</types>
+      <types>Boolean</types>
+      <types>Date</types>
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
       <stringQualifiers>
         <length>200</length>
       </stringQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
